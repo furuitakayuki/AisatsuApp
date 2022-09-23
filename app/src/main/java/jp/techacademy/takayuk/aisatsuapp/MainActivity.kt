@@ -30,9 +30,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                     textView.setText("おはようございます")
                 } else if(hour in 10..17 && minute >= 0) {
                     textView.setText("こんにちわ")
-                } else if (hour in 18..23 && minute >= 0) {
-                    textView.setText("こんばんは")
-                } else
+                } else 
                     textView.setText("こんばんは")
 
             },
